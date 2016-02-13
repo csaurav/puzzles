@@ -1,4 +1,4 @@
-## Given an array, find all duplicate array
+## Given an array, remove all duplicate array
 #
 
 class DuplicateArray
