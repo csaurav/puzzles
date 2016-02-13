@@ -1,3 +1,6 @@
+## Given array of n integers and given a number X, 
+#Find all the unique pairs of elements (a,b), whose summation is equal to X.
+
 class ArraySum
   
   def initialize(collection = [], sum_value = nil) 
