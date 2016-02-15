@@ -16,12 +16,13 @@ class ArraySum
 
     list = _find_pair
   
-    puts "collections: #{list}"
+    puts "Collections: #{list}"
     
   end
 
   private
 
+  # Method for finding the pair of elements whose sum equals to sum_value
   def _find_pair
     left_index = 0
     right_index = @collection.size - 1
@@ -48,6 +49,11 @@ class ArraySum
 
 end
 
-as = ArraySum.new([10,2,1,3,4,5,6,8,9,7], 6)
+
+array = [10, 2, 1, 3, 4, 5, 6, 8, 9, 7]
+sum_value = 6
+as = ArraySum.new(array, sum_value)
+
+puts "Sum Value: #{sum_value} ---- array input: #{array}"
 
 puts as.perform_operation
