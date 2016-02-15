@@ -1,5 +1,6 @@
 ## Given array of n integers and given a number X, 
 #Find all the unique pairs of elements (a,b), whose summation is equal to X.
+# Instructions for running the program from console: ruby array_sum.rb
 
 class ArraySum
   
