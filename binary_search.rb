@@ -1,4 +1,4 @@
-# Binary Search implementation
+## Binary Search implementation
 
 
 def binary_search(array, value, from=0, to=nil)
@@ -10,7 +10,7 @@ def binary_search(array, value, from=0, to=nil)
   if value < mid
     return binary_search(array, value, from, mid - 1)
   elsif value > mid
-    return binary_search(array, value, mid +1, to)
+    return binary_search(array, value, mid + 1, to)
   else
     return mid
   end
